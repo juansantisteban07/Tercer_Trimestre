@@ -3,9 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hola mundo</title>
+    <title>Razonamiento cuantitativo 1</title>
+    <meta name="description" content="Herramienta educativa para clasificar números en conjuntos (narutales, enteros, racionales) y resolver operaciones aritmeticas paso a paso.">
+    <link rel="stylesheet" href="css/style.css"
 </head>
 <body>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum id soluta ex distinctio, consequatur nostrum saepe nobis quisquam quidem at asperiores sunt, architecto neque non quod iste corrupti, beatae voluptatum.</p>
+    <div class="principal">
+        <nav class="tabs-nav" role="tablist">
+            <button class="tab-btn" role="tab">
+                <spam class="nab-tab-text">Conjuntos de números</spam>
+            </button>
+            <button class="tab-btn" role="tab">
+               <spam class="nab-tab-text">Operaciones Aritmeticas</spam>
+            </button>
+            <button class="tab-btn" role="tab">
+                <spam class="nab-tab-text">:D</spam>
+            </button>
+        </nav>
+
+        <section id="panel-clasificado" class="tab-panel active">
+            <div class="card">
+                <h2>Clasificador de conjunto Números</h2>
+                <p>Ingresa un numero y selecciona un conjunto para verificar si pertenece a a el</p>
+            </div>
+            <input type="text" id="numero-input">
+
+            <select id="selec-conjuntos">
+                <option value="naturales">Naturales</option>
+                <option value="enteros">Enteros</option>
+                <option value="racionales">Racionales</option>
+            </select>
+
+        </section>
+
+        <h1>Hola mundo</h1>
+        <p><b>lorem</b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum id soluta ex distinctio, consequatur nostrum saepe nobis quisquam quidem at asperiores sunt, architecto neque non quod iste corrupti, beatae voluptatum.</p>
+        <script>
+        alert("Hola")
+        </script>
+    </div>
 </body>
 </html>
