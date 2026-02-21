@@ -23,24 +23,31 @@
 
         <section id="panel-clasificado" class="tab-panel active">
             <div class="card">
-                <h2>Clasificador de conjunto Números</h2>
-                <p>Ingresa un numero y selecciona un conjunto para verificar si pertenece a a el</p>
+                <div class="card-header">
+                    <h2>Clasificador de conjunto Números</h2>
+                    <p>Ingresa un numero y selecciona un conjunto para verificar si pertenece a a el</p>
+                </div>
+            
+                
+                <div class="card-body">
+                    <div class="card-object">
+                        <label>Inserte el Número:</label>
+                        <input type="text" id="numero-input" placeholder="EJ: 1, -8, 3/4, 7.6">
+                <div>
             </div>
-            <input type="text" id="numero-input">
-
-            <select id="selec-conjuntos">
-                <option value="naturales">Naturales</option>
-                <option value="enteros">Enteros</option>
-                <option value="racionales">Racionales</option>
-            </select>
-
+            
+            <div class="card-object">
+                <select id="selec-conjuntos">
+                    <option value="">Selecciona un conjunto</option>
+                    <option value="naturales">Naturales</option>
+                    <option value="enteros">Enteros</option>
+                    <option value="racionales">Racionales</option>
+                </select>
+            </div>
+            <button class="tab-btn" id="btn-clasificador" type="button">Evaluar</button>
         </section>
 
-        <h1>Hola mundo</h1>
-        <p><b>lorem</b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum id soluta ex distinctio, consequatur nostrum saepe nobis quisquam quidem at asperiores sunt, architecto neque non quod iste corrupti, beatae voluptatum.</p>
-        <script>
-        alert("Hola")
-        </script>
+    
     </div>
 </body>
 </html>
