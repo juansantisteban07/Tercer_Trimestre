@@ -30,7 +30,7 @@
             </button>
         </nav>
 
-        <section id="panel-clasificado" class="tab-panel active">
+        <section id="panel-clasificar" class="tab-panel active">
             <div class="card">
                 <div class="card-header">
                     <h2>Clasificador de conjunto Números</h2>
@@ -56,6 +56,33 @@
             <button class="tab-btn" id="btn-clasificador" type="button">Evaluar</button>
         </section>
 
+
+
+         <section id="panel-operaciones" class="tab-panel active">
+            <div class="card">
+                <div class="card-header">
+                    <h2>Clasificador de conjunto Números</h2>
+                    <p>Ingresa un numero y selecciona un conjunto para verificar si pertenece a a el</p>
+                </div>
+            
+                
+                <div class="card-body">
+                    <div class="card-object">
+                        <label>Inserte el Número:</label>
+                        <input type="text" id="numero-input" placeholder="EJ: 1, -8, 3/4, 7.6">
+                <div>
+            </div>
+            
+            <div class="card-object">
+                <select id="selec-conjuntos">
+                    <option value="">Selecciona un conjunto</option>
+                    <option value="naturales">Naturales</option>
+                    <option value="enteros">Enteros</option>
+                    <option value="racionales">Racionales</option>
+                </select>
+            </div>
+            <button class="tab-btn" id="btn-clasificador" type="button">Evaluar</button>
+        </section>
     
     </div>
 </body>
